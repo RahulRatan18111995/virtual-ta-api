@@ -36,3 +36,7 @@ def answer_question(request: QueryRequest):
         links=sources
     )
 
+@app.get("/")
+def read_root():
+    return {"message": "Virtual TA is working!"}
+
