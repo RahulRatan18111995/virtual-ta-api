@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+env/
+.venv/
+venv/
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+*.env
+
+# Logs / Debug
+*.log
+
+# Scraped or temp files
+*.webp
+temp_*
+tds_discourse_posts.json
+tds_course_notes.json
+*.ipynb_checkpoints/
+*.index
+requirements.lock
+promptfoo-results.json
+promptfoo.cache/
